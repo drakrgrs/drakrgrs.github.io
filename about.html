@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Drake Rogers - iOS Developer</title>
+    <meta name="description" content="Learn more about Drake Rogers, iOS developer and software engineer based in Honolulu, HI, specializing in digital wellbeing applications.">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .about-hero {
+            background: linear-gradient(135deg, var(--light-background) 0%, var(--electric-blue-light) 100%);
+            padding: 6rem 0 4rem;
+            margin-top: 80px;
+        }
+        
+        .about-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .about-intro {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+        
+        .about-intro h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: var(--dark-text);
+        }
+        
+        .about-intro .subtitle {
+            font-size: 1.3rem;
+            color: var(--medium-text);
+            margin-bottom: 2rem;
+        }
+        
+        .about-text {
+            margin: 3rem 0;
+        }
+        
+        .about-text p {
+            font-size: 1.1rem;
+            color: var(--medium-text);
+            margin-bottom: 1.5rem;
+            line-height: 1.8;
+        }
+        
+        .journey-timeline {
+            background: white;
+            padding: 3rem;
+            border-radius: 20px;
+            margin: 3rem 0;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        }
+        
+        .timeline-item {
+            display: flex;
+            gap: 2rem;
+            margin-bottom: 2rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+        
+        .timeline-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+        }
+        
+        .timeline-date {
+            font-weight: 600;
+            color: var(--electric-blue);
+            min-width: 120px;
+        }
+        
+        .timeline-content h4 {
+            color: var(--dark-text);
+            margin-bottom: 0.5rem;
+        }
+        
+        .timeline-content p {
+            color: var(--medium-text);
+            line-height: 1.6;
+        }
+        
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+        
+        .value-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            text-align: center;
+        }
+        
+        .value-icon {
+            width: 60px;
+            height: 60px;
+            background: var(--electric-blue-light);
+            color: var(--electric-blue);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            margin: 0 auto 1rem;
+        }
+        
+        .value-card h4 {
+            color: var(--dark-text);
+            margin-bottom: 1rem;
+        }
+        
+        .value-card p {
+            color: var(--medium-text);
+            line-height: 1.6;
+        }
+        
+        .back-link {
+            display: inline-block;
+            margin-bottom: 2rem;
+            color: var(--electric-blue);
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <div class="logo">
+                    <h1><a href="index.html" style="color: inherit; text-decoration: none;">Drake Rogers</a></h1>
+                </div>
+                <div class="nav-links">
+                    <a href="index.html#apps">Apps</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="about-hero">
+            <div class="container">
+                <a href="index.html" class="back-link">← Back to Portfolio</a>
+                
+                <div class="about-intro">
+                    <h1>About Me</h1>
+                    <p class="subtitle">Building thoughtful technology that respects human attention and promotes digital wellbeing</p>
+                </div>
+            </div>
+        </section>
+
+        <section style="padding: 5rem 0;">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                            I'm Drake Rogers, a software engineer based in the beautiful city of Honolulu, Hawaii. 
+                            My passion lies in creating iOS applications that make a meaningful, positive impact on people's lives—particularly 
+                            in the realm of digital wellbeing and thoughtful technology design.
+                        </p>
+                        
+                        <p>
+                            Currently pursuing a Bachelor of Science in Software Engineering at Western Governors University, 
+                            I've been fortunate to ship real products to the App Store and build production backend systems 
+                            that handle real user data. My approach to development emphasizes privacy, user respect, and 
+                            creating technology that enhances rather than detracts from human flourishing.
+                        </p>
+                        
+                        <p>
+                            Before transitioning into software development, I ran a full-service photography business 
+                            across South Dakota, Minnesota, and Hawaii for over a decade. This entrepreneurial experience 
+                            taught me the importance of understanding user needs, maintaining long-term client relationships, 
+                            and building systems that scale with business growth.
+                        </p>
+                    </div>
+
+                    <div class="journey-timeline">
+                        <h3 style="text-align: center; margin-bottom: 3rem; color: var(--dark-text);">My Journey</h3>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-date">2025 - Present</div>
+                            <div class="timeline-content">
+                                <h4>Shipping Digital Wellbeing Apps</h4>
+                                <p>Developing and launching iOS apps focused on digital wellness, including Baby TapTime (live on App Store) and the upcoming Nudge app for breaking doom-scrolling habits.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-date">2024 - Present</div>
+                            <div class="timeline-content">
+                                <h4>Software Engineer at Sphinx Moth Press</h4>
+                                <p>Building full-stack applications with Swift, Python, PostgreSQL, and React. Implementing ETL pipelines and designing database schemas for production systems.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-date">2023 - 2027</div>
+                            <div class="timeline-content">
+                                <h4>B.S. Software Engineering Student</h4>
+                                <p>Pursuing my degree at Western Governors University with Excellence Awards in Ethics in Technology and Systems Thinking. Recently completed Advanced Data Management certification.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-date">2014 - 2024</div>
+                            <div class="timeline-content">
+                                <h4>Photography Business Owner</h4>
+                                <p>Founded and operated Drake Rogers Photography, serving clients across multiple states while developing strong business operations and client management skills.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3 style="text-align: center; margin: 4rem 0 2rem; color: var(--dark-text);">What Drives Me</h3>
+                    
+                    <div class="values-grid">
+                        <div class="value-card">
+                            <div class="value-icon">🔒</div>
+                            <h4>Privacy First</h4>
+                            <p>I believe user privacy should be built into the foundation of every app, not added as an afterthought.</p>
+                        </div>
+                        
+                        <div class="value-card">
+                            <div class="value-icon">🧘</div>
+                            <h4>Digital Wellbeing</h4>
+                            <p>Technology should enhance human flourishing, not create addiction or drain our attention.</p>
+                        </div>
+                        
+                        <div class="value-card">
+                            <div class="value-icon">🎨</div>
+                            <h4>Thoughtful Design</h4>
+                            <p>Every interaction should be intentional, respectful, and designed with the user's best interests at heart.</p>
+                        </div>
+                        
+                        <div class="value-card">
+                            <div class="value-icon">🚀</div>
+                            <h4>Shipping Real Products</h4>
+                            <p>I focus on building and launching applications that solve real problems for real people.</p>
+                        </div>
+                    </div>
+
+                    <div class="skills-grid" style="margin-top: 4rem;">
+                        <div class="skill-category">
+                            <h4>Mobile Development</h4>
+                            <ul>
+                                <li>Swift & SwiftUI</li>
+                                <li>iOS SDK & Frameworks</li>
+                                <li>Screen Time API</li>
+                                <li>Core Data & Core Haptics</li>
+                                <li>App Store Guidelines</li>
+                            </ul>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Backend & Data</h4>
+                            <ul>
+                                <li>Python & FastAPI</li>
+                                <li>PostgreSQL</li>
+                                <li>ETL/ELT Pipelines</li>
+                                <li>Advanced SQL</li>
+                                <li>Database Design</li>
+                            </ul>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Tools & Platforms</h4>
+                            <ul>
+                                <li>Xcode & Git</li>
+                                <li>React & JavaScript</li>
+                                <li>System Design</li>
+                                <li>API Development</li>
+                                <li>Performance Optimization</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div style="text-align: center; margin-top: 4rem;">
+                        <h3 style="margin-bottom: 2rem; color: var(--dark-text);">Let's Build Something Great</h3>
+                        <p style="color: var(--medium-text); margin-bottom: 2rem; font-size: 1.1rem;">
+                            I'm always interested in collaborating on projects that align with my values of privacy, 
+                            digital wellbeing, and thoughtful technology design.
+                        </p>
+                        <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+                            <a href="index.html#apps" class="btn-primary">View My Apps</a>
+                            <a href="contact.html" class="btn-secondary">Get In Touch</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Drake Rogers. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nudge - Digital Wellbeing App | Drake Rogers</title>
+    <meta name="description" content="Nudge - A thoughtful iOS app that helps break doom-scrolling habits with gentle, real-time behavioral nudges using Apple's Screen Time API.">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .app-hero {
+            background: linear-gradient(135deg, var(--light-background) 0%, var(--electric-blue-light) 100%);
+            padding: 6rem 0 4rem;
+            margin-top: 80px;
+        }
+        
+        .app-header {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .app-icon-large {
+            width: 120px;
+            height: 120px;
+            background: var(--electric-blue);
+            color: white;
+            border-radius: 28px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            font-weight: 700;
+            box-shadow: 0 8px 30px rgba(0, 122, 255, 0.3);
+        }
+        
+        .app-info h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            color: var(--dark-text);
+        }
+        
+        .app-subtitle {
+            font-size: 1.3rem;
+            color: var(--electric-blue);
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+        
+        .app-status {
+            background: var(--electric-blue-light);
+            color: var(--electric-blue);
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+        
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        
+        .feature-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            border: 1px solid var(--border-color);
+        }
+        
+        .feature-icon {
+            width: 60px;
+            height: 60px;
+            background: var(--electric-blue-light);
+            color: var(--electric-blue);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .feature-card h3 {
+            color: var(--dark-text);
+            margin-bottom: 1rem;
+        }
+        
+        .feature-card p {
+            color: var(--medium-text);
+            line-height: 1.6;
+        }
+        
+        .tech-showcase {
+            background: white;
+            padding: 3rem;
+            border-radius: 20px;
+            margin: 3rem 0;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        }
+        
+        .back-link {
+            display: inline-block;
+            margin-bottom: 2rem;
+            color: var(--electric-blue);
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <div class="logo">
+                    <h1><a href="index.html" style="color: inherit; text-decoration: none;">Drake Rogers</a></h1>
+                </div>
+                <div class="nav-links">
+                    <a href="index.html#apps">Apps</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="app-hero">
+            <div class="container">
+                <a href="index.html#apps" class="back-link">← Back to Apps</a>
+                
+                <div class="app-header">
+                    <div class="app-icon-large">N</div>
+                    <div class="app-info">
+                        <h1>Nudge</h1>
+                        <p class="app-subtitle">Digital Wellbeing App</p>
+                        <span class="app-status">Coming Soon</span>
+                    </div>
+                </div>
+                
+                <p style="font-size: 1.25rem; color: var(--medium-text); line-height: 1.6; max-width: 600px;">
+                    A lightweight iOS app that helps break doom-scrolling habits with gentle, real-time behavioral nudges. 
+                    Built with privacy-first principles using Apple's Screen Time API.
+                </p>
+            </div>
+        </section>
+
+        <section style="padding: 5rem 0;">
+            <div class="container">
+                <h2>Key Features</h2>
+                
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">⏰</div>
+                        <h3>Real-Time Detection</h3>
+                        <p>Uses Apple's Screen Time API to detect extended scrolling sessions and provides gentle interruptions at the right moments.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">🔒</div>
+                        <h3>Privacy-First Design</h3>
+                        <p>All processing happens on-device. No data collection, no external servers, no tracking. Your digital habits stay private.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">🎛️</div>
+                        <h3>Customizable Nudges</h3>
+                        <p>Adjust frequency, set quiet hours, choose different intervention styles. The app adapts to your preferences and schedule.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">🧘</div>
+                        <h3>Mindful Interruptions</h3>
+                        <p>Gentle, non-judgmental prompts that encourage awareness without shaming. Designed to promote digital mindfulness.</p>
+                    </div>
+                </div>
+                
+                <div class="tech-showcase">
+                    <h3>Technical Implementation</h3>
+                    <p style="color: var(--medium-text); margin-bottom: 2rem;">
+                        Nudge leverages cutting-edge iOS technologies to deliver a seamless, privacy-focused experience:
+                    </p>
+                    
+                    <div class="app-tech" style="margin-bottom: 1.5rem;">
+                        <span class="tech-tag">Swift & SwiftUI</span>
+                        <span class="tech-tag">Screen Time API</span>
+                        <span class="tech-tag">UserNotifications</span>
+                        <span class="tech-tag">Core Data</span>
+                        <span class="tech-tag">Privacy-First Architecture</span>
+                    </div>
+                    
+                    <p style="color: var(--medium-text);">
+                        The app uses advanced pattern recognition to distinguish between intentional app usage and 
+                        mindless scrolling, providing interventions only when they're most likely to be helpful.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Support Section -->
+        <section id="support" class="support">
+            <div class="container">
+                <h2>Support & FAQ</h2>
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <h4>How does Nudge detect doom-scrolling?</h4>
+                        <p>Nudge uses Apple's Screen Time API to analyze usage patterns in real-time, identifying when scrolling becomes repetitive or extended beyond normal browsing.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>Is my usage data private?</h4>
+                        <p>Absolutely. All analysis happens on-device using Apple's privacy-focused frameworks. No usage data leaves your phone.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>Can I customize when nudges appear?</h4>
+                        <p>Yes! Set quiet hours, adjust sensitivity, choose different nudge styles, and select which apps to monitor.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>Will this drain my battery?</h4>
+                        <p>No. Nudge uses efficient background monitoring that's designed to have minimal impact on battery life.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>Which iOS version do I need?</h4>
+                        <p>Nudge requires iOS 16.0 or later to access the advanced Screen Time API features needed for real-time monitoring.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>How is this different from Screen Time limits?</h4>
+                        <p>Instead of blocking apps after time limits, Nudge provides gentle awareness cues during usage to promote mindful decision-making.</p>
+                    </div>
+                </div>
+                <div class="support-contact">
+                    <p>Have more questions? <a href="contact.html">Get in touch</a></p>
+                </div>
+                
+                <div style="text-align: center; margin-top: 3rem;">
+                    <a href="privacy/nudge.html" class="btn-outline">Privacy Policy</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Drake Rogers. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baby TapTime - Safe Toddler App | Drake Rogers</title>
+    <meta name="description" content="Baby TapTime - A safe, offline sensory play app for toddlers featuring tap gestures, haptic feedback, and distraction-free design.">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .app-hero {
+            background: linear-gradient(135deg, #FFF7E6 0%, #E8F4FD 100%);
+            padding: 6rem 0 4rem;
+            margin-top: 80px;
+        }
+        
+        .app-header {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .app-icon-large {
+            width: 120px;
+            height: 120px;
+            background: linear-gradient(135deg, #FF9500 0%, #FF6B6B 100%);
+            color: white;
+            border-radius: 28px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            font-weight: 700;
+            box-shadow: 0 8px 30px rgba(255, 149, 0, 0.3);
+        }
+        
+        .app-info h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            color: var(--dark-text);
+        }
+        
+        .app-subtitle {
+            font-size: 1.3rem;
+            color: #FF6B6B;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+        
+        .app-status {
+            background: #E8F8E8;
+            color: #2E7D32;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+        
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        
+        .feature-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            border: 1px solid var(--border-color);
+        }
+        
+        .feature-icon {
+            width: 60px;
+            height: 60px;
+            background: #FFF7E6;
+            color: #FF9500;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .feature-card h3 {
+            color: var(--dark-text);
+            margin-bottom: 1rem;
+        }
+        
+        .feature-card p {
+            color: var(--medium-text);
+            line-height: 1.6;
+        }
+        
+        .tech-showcase {
+            background: white;
+            padding: 3rem;
+            border-radius: 20px;
+            margin: 3rem 0;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        }
+        
+        .back-link {
+            display: inline-block;
+            margin-bottom: 2rem;
+            color: var(--electric-blue);
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        
+        .app-store-btn {
+            background: #000;
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: all 0.3s ease;
+            margin-top: 2rem;
+        }
+        
+        .app-store-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+        }
+        
+        .safety-highlight {
+            background: #E8F8E8;
+            border: 2px solid #4CAF50;
+            border-radius: 16px;
+            padding: 2rem;
+            margin: 3rem 0;
+            text-align: center;
+        }
+        
+        .safety-highlight h3 {
+            color: #2E7D32;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <div class="logo">
+                    <h1><a href="index.html" style="color: inherit; text-decoration: none;">Drake Rogers</a></h1>
+                </div>
+                <div class="nav-links">
+                    <a href="index.html#apps">Apps</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="app-hero">
+            <div class="container">
+                <a href="index.html#apps" class="back-link">← Back to Apps</a>
+                
+                <div class="app-header">
+                    <div class="app-icon-large">🍼</div>
+                    <div class="app-info">
+                        <h1>Baby TapTime</h1>
+                        <p class="app-subtitle">Safe Toddler Interaction App</p>
+                        <span class="app-status">Live on App Store</span>
+                    </div>
+                </div>
+                
+                <p style="font-size: 1.25rem; color: var(--medium-text); line-height: 1.6; max-width: 600px;">
+                    A completely safe, offline sensory play app designed specifically for toddlers. No ads, no data collection, 
+                    no internet required - just pure, engaging play.
+                </p>
+                
+                <a href="#" class="app-store-btn">
+                    <span>📱</span>
+                    <span>Download on App Store</span>
+                </a>
+            </div>
+        </section>
+
+        <section style="padding: 5rem 0;">
+            <div class="container">
+                <div class="safety-highlight">
+                    <h3>🛡️ Child-Safe Design</h3>
+                    <p>Baby TapTime is built with child safety as the top priority. Completely offline, no data collection, no external links, and no way for children to accidentally access outside content or make purchases.</p>
+                </div>
+                
+                <h2>What Makes Baby TapTime Special</h2>
+                
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">👶</div>
+                        <h3>Age-Appropriate Design</h3>
+                        <p>Specifically designed for toddlers 6 months to 3 years old, with large touch targets and simple interactions that develop motor skills.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">🔒</div>
+                        <h3>100% Offline & Safe</h3>
+                        <p>No internet connection required. No ads, no data collection, no external links. Your child can play safely without any unwanted surprises.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">🎵</div>
+                        <h3>Sensory Feedback</h3>
+                        <p>Engaging haptic feedback, delightful sound effects, and colorful visual responses that create a rich sensory play experience.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">🎨</div>
+                        <h3>Simple Interactions</h3>
+                        <p>Tap, swipe, and touch gestures designed to be discoverable by toddlers while promoting hand-eye coordination and cause-and-effect learning.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">⚙️</div>
+                        <h3>Parent Controls</h3>
+                        <p>Easily adjust sound levels, haptic intensity, and visual effects to match your child's preferences and your environment.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">💰</div>
+                        <h3>One-Time Purchase</h3>
+                        <p>No subscriptions, no in-app purchases, no hidden costs. Buy once and your family can enjoy Baby TapTime forever.</p>
+                    </div>
+                </div>
+                
+                <div class="tech-showcase">
+                    <h3>Built for Safety & Performance</h3>
+                    <p style="color: var(--medium-text); margin-bottom: 2rem;">
+                        Baby TapTime uses native iOS technologies to deliver smooth performance while maintaining the highest safety standards:
+                    </p>
+                    
+                    <div class="app-tech" style="margin-bottom: 1.5rem;">
+                        <span class="tech-tag">Swift & SwiftUI</span>
+                        <span class="tech-tag">Core Haptics</span>
+                        <span class="tech-tag">AVFoundation</span>
+                        <span class="tech-tag">Core Animation</span>
+                        <span class="tech-tag">COPPA Compliant</span>
+                    </div>
+                    
+                    <p style="color: var(--medium-text);">
+                        The app is fully compliant with COPPA (Children's Online Privacy Protection Act) and Apple's 
+                        guidelines for children's apps, ensuring the safest possible experience for your little one.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Support Section -->
+        <section id="support" class="support">
+            <div class="container">
+                <h2>Parent Guide & FAQ</h2>
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <h4>What age is this appropriate for?</h4>
+                        <p>Baby TapTime is designed for toddlers aged 6 months to 3 years, with interactions that grow with your child's development.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>Is it completely safe for children?</h4>
+                        <p>Yes! The app works 100% offline, contains no ads, collects no data, and has no external links or in-app purchases that could be accidentally triggered.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>How do I adjust the settings?</h4>
+                        <p>Tap the settings icon (visible to adults) to adjust sound volume, haptic feedback strength, and visual effect intensity.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>Will this help my child's development?</h4>
+                        <p>The app encourages hand-eye coordination, cause-and-effect learning, and fine motor skill development through age-appropriate touch interactions.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>Does it work without internet?</h4>
+                        <p>Yes! Baby TapTime is completely offline and doesn't require any internet connection to function.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>Are there any ongoing costs?</h4>
+                        <p>No subscriptions or in-app purchases. It's a one-time purchase that your family can enjoy forever.</p>
+                    </div>
+                </div>
+                <div class="support-contact">
+                    <p>Have questions about Baby TapTime? <a href="contact.html">Contact Support</a></p>
+                </div>
+                
+                <div style="text-align: center; margin-top: 3rem; display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                    <a href="privacy/baby-taptime.html" class="btn-outline">Privacy Policy</a>
+                    <a href="#" class="btn-primary">Download on App Store</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Drake Rogers. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
